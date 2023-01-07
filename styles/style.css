@@ -1,0 +1,244 @@
+* {
+  font-family: Work Sans;
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+section {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.primary-btn {
+  padding: 15px 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  color: #0062AE;
+  font-size: 20px;
+  font-weight: 600px;
+  text-align: center;
+}
+
+
+
+/* Header Section Styles */
+.header-section {
+  display: flex;
+  background-image: url("../images/banner/banner.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100%;
+  height: 100vh;
+  color: white;
+}
+
+.header-content {
+  margin: 130px 80px 40px 230px;
+  text-align: right;
+  position: left bottom;
+  margin-left: 650px;
+}
+
+.header-content-title {
+  font-weight: 700;
+  font-size: 65px;
+  margin-bottom: 24px;
+}
+
+.header-content-description {
+  font-weight: 400px;
+  margin-bottom: 32px;
+}
+
+/* Main Section Styles */
+.main {
+  padding-top: 100px;
+  padding-left: 130px;
+  padding-right: 130px;
+}
+
+.main-section {
+  background-color: white;
+}
+
+/* Failure Section Styles*/
+
+.failure-section {
+  display: flex;
+  justify-content: space-between;
+  color: black;
+
+}
+
+.failure-content {
+  margin-left: 100px;
+  padding-top: 100px;
+  padding-left: 70px;
+  padding-right: 50px;
+}
+
+.failure-title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #151414;
+  margin-bottom: 20px;
+}
+
+li {
+  list-style: none;
+}
+
+li::before {
+  content: '✓';
+  color: green;
+  font-weight: 900;
+}
+
+.failure-description {
+  font-weight: 400;
+  font-size: 16px;
+  color: #444343;
+  margin-bottom: 15px;
+}
+
+/* My plan Section Styles */
+.plan-section {
+  margin-top: 120px;
+}
+
+.plan-section-title {
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  color: #151414;
+  margin-bottom: 50px;
+}
+
+.plan {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.plan-title {
+  font-weight: 700;
+  font-size: 30px;
+  color: #151414;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+
+.plan-description {
+  font-weight: 500;
+  font-size: 25px;
+  color: #737272;
+}
+
+/* Mindset Section Style */
+.mindset {
+  background-image: url("../images/gradient.png"), url("../images/watch.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding-top: 60px;
+  padding-right: 500px;
+  padding-left: 60px;
+  margin-top: 150px;
+}
+
+.mindset-title {
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+/* Footer Section Styles */
+.footer {
+  background-color: #151414;
+  color: white;
+  padding-top: 100px;
+  padding-left: 130px;
+  padding-right: 130px;
+  margin-top: 150px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Future Section Style */
+.future-title {
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 16px;
+}
+.future-description{
+  margin-bottom: 25px;
+}
+.contact a{
+color: white;
+}
+.contact p{
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+.social-media {
+  display: flex;
+}
+.social-link{
+  margin-right: 20px;
+}
+
+/* Subscribe Section Styles */
+.subscribe {
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 10px;
+}
+
+.subscribe-title {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.email-field {
+  background-color: #151414;
+  color: #f3f3f3;
+  font-size: 18px;
+  font-weight: 400px;
+  text-align: left;
+  padding: 20px 100px 20px 10px;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.subscribe-btn {
+  padding: 15px 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0162b1;
+  color: white;
+  font-size: 20px;
+  font-weight: 600px;
+  text-align: center;
+}
+
+/* copyright info styles */
+.copyright-info {
+  text-align: center;
+  font-size: 20px;
+  padding: 30px;
+}
